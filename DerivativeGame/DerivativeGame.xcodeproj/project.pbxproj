@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CADF733A2013E0D600055381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF73392013E0D600055381 /* AppDelegate.swift */; };
+		CADF733C2013E0D600055381 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF733B2013E0D600055381 /* ViewController.swift */; };
+		CADF733F2013E0D600055381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADF733D2013E0D600055381 /* Main.storyboard */; };
+		CADF73412013E0D600055381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADF73402013E0D600055381 /* Assets.xcassets */; };
+		CADF73442013E0D600055381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADF73422013E0D600055381 /* LaunchScreen.storyboard */; };
+		CADF734F2013E0D600055381 /* DerivativeGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF734E2013E0D600055381 /* DerivativeGameTests.swift */; };
+		CADF735A2013E0D600055381 /* DerivativeGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF73592013E0D600055381 /* DerivativeGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CADF734B2013E0D600055381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CADF732E2013E0D600055381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CADF73352013E0D600055381;
+			remoteInfo = DerivativeGame;
+		};
+		CADF73562013E0D600055381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CADF732E2013E0D600055381 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CADF73352013E0D600055381;
+			remoteInfo = DerivativeGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CADF73362013E0D600055381 /* DerivativeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DerivativeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADF73392013E0D600055381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CADF733B2013E0D600055381 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CADF733E2013E0D600055381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CADF73402013E0D600055381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CADF73432013E0D600055381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CADF73452013E0D600055381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CADF734A2013E0D600055381 /* DerivativeGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DerivativeGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADF734E2013E0D600055381 /* DerivativeGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DerivativeGameTests.swift; sourceTree = "<group>"; };
+		CADF73502013E0D600055381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CADF73552013E0D600055381 /* DerivativeGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DerivativeGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADF73592013E0D600055381 /* DerivativeGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DerivativeGameUITests.swift; sourceTree = "<group>"; };
+		CADF735B2013E0D600055381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CADF73332013E0D600055381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADF73472013E0D600055381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADF73522013E0D600055381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CADF732D2013E0D600055381 = {
+			isa = PBXGroup;
+			children = (
+				CADF73382013E0D600055381 /* DerivativeGame */,
+				CADF734D2013E0D600055381 /* DerivativeGameTests */,
+				CADF73582013E0D600055381 /* DerivativeGameUITests */,
+				CADF73372013E0D600055381 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CADF73372013E0D600055381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CADF73362013E0D600055381 /* DerivativeGame.app */,
+				CADF734A2013E0D600055381 /* DerivativeGameTests.xctest */,
+				CADF73552013E0D600055381 /* DerivativeGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CADF73382013E0D600055381 /* DerivativeGame */ = {
+			isa = PBXGroup;
+			children = (
+				CADF73392013E0D600055381 /* AppDelegate.swift */,
+				CADF733B2013E0D600055381 /* ViewController.swift */,
+				CADF733D2013E0D600055381 /* Main.storyboard */,
+				CADF73402013E0D600055381 /* Assets.xcassets */,
+				CADF73422013E0D600055381 /* LaunchScreen.storyboard */,
+				CADF73452013E0D600055381 /* Info.plist */,
+			);
+			path = DerivativeGame;
+			sourceTree = "<group>";
+		};
+		CADF734D2013E0D600055381 /* DerivativeGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CADF734E2013E0D600055381 /* DerivativeGameTests.swift */,
+				CADF73502013E0D600055381 /* Info.plist */,
+			);
+			path = DerivativeGameTests;
+			sourceTree = "<group>";
+		};
+		CADF73582013E0D600055381 /* DerivativeGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CADF73592013E0D600055381 /* DerivativeGameUITests.swift */,
+				CADF735B2013E0D600055381 /* Info.plist */,
+			);
+			path = DerivativeGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CADF73352013E0D600055381 /* DerivativeGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADF735E2013E0D600055381 /* Build configuration list for PBXNativeTarget "DerivativeGame" */;
+			buildPhases = (
+				CADF73322013E0D600055381 /* Sources */,
+				CADF73332013E0D600055381 /* Frameworks */,
+				CADF73342013E0D600055381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DerivativeGame;
+			productName = DerivativeGame;
+			productReference = CADF73362013E0D600055381 /* DerivativeGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CADF73492013E0D600055381 /* DerivativeGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADF73612013E0D600055381 /* Build configuration list for PBXNativeTarget "DerivativeGameTests" */;
+			buildPhases = (
+				CADF73462013E0D600055381 /* Sources */,
+				CADF73472013E0D600055381 /* Frameworks */,
+				CADF73482013E0D600055381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CADF734C2013E0D600055381 /* PBXTargetDependency */,
+			);
+			name = DerivativeGameTests;
+			productName = DerivativeGameTests;
+			productReference = CADF734A2013E0D600055381 /* DerivativeGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CADF73542013E0D600055381 /* DerivativeGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADF73642013E0D600055381 /* Build configuration list for PBXNativeTarget "DerivativeGameUITests" */;
+			buildPhases = (
+				CADF73512013E0D600055381 /* Sources */,
+				CADF73522013E0D600055381 /* Frameworks */,
+				CADF73532013E0D600055381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CADF73572013E0D600055381 /* PBXTargetDependency */,
+			);
+			name = DerivativeGameUITests;
+			productName = DerivativeGameUITests;
+			productReference = CADF73552013E0D600055381 /* DerivativeGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CADF732E2013E0D600055381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Brandon;
+				TargetAttributes = {
+					CADF73352013E0D600055381 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CADF73492013E0D600055381 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CADF73352013E0D600055381;
+					};
+					CADF73542013E0D600055381 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CADF73352013E0D600055381;
+					};
+				};
+			};
+			buildConfigurationList = CADF73312013E0D600055381 /* Build configuration list for PBXProject "DerivativeGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CADF732D2013E0D600055381;
+			productRefGroup = CADF73372013E0D600055381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CADF73352013E0D600055381 /* DerivativeGame */,
+				CADF73492013E0D600055381 /* DerivativeGameTests */,
+				CADF73542013E0D600055381 /* DerivativeGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CADF73342013E0D600055381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADF73442013E0D600055381 /* LaunchScreen.storyboard in Resources */,
+				CADF73412013E0D600055381 /* Assets.xcassets in Resources */,
+				CADF733F2013E0D600055381 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADF73482013E0D600055381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADF73532013E0D600055381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CADF73322013E0D600055381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADF733C2013E0D600055381 /* ViewController.swift in Sources */,
+				CADF733A2013E0D600055381 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADF73462013E0D600055381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADF734F2013E0D600055381 /* DerivativeGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADF73512013E0D600055381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADF735A2013E0D600055381 /* DerivativeGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CADF734C2013E0D600055381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CADF73352013E0D600055381 /* DerivativeGame */;
+			targetProxy = CADF734B2013E0D600055381 /* PBXContainerItemProxy */;
+		};
+		CADF73572013E0D600055381 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CADF73352013E0D600055381 /* DerivativeGame */;
+			targetProxy = CADF73562013E0D600055381 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CADF733D2013E0D600055381 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADF733E2013E0D600055381 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CADF73422013E0D600055381 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADF73432013E0D600055381 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CADF735C2013E0D600055381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CADF735D2013E0D600055381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CADF735F2013E0D600055381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZWJ3XJ6L33;
+				INFOPLIST_FILE = DerivativeGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hack-Davis-Derivative-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CADF73602013E0D600055381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZWJ3XJ6L33;
+				INFOPLIST_FILE = DerivativeGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hack-Davis-Derivative-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CADF73622013E0D600055381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DerivativeGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brandon.DerivativeGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DerivativeGame.app/DerivativeGame";
+			};
+			name = Debug;
+		};
+		CADF73632013E0D600055381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DerivativeGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brandon.DerivativeGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DerivativeGame.app/DerivativeGame";
+			};
+			name = Release;
+		};
+		CADF73652013E0D600055381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DerivativeGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brandon.DerivativeGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DerivativeGame;
+			};
+			name = Debug;
+		};
+		CADF73662013E0D600055381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DerivativeGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Brandon.DerivativeGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DerivativeGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CADF73312013E0D600055381 /* Build configuration list for PBXProject "DerivativeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADF735C2013E0D600055381 /* Debug */,
+				CADF735D2013E0D600055381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADF735E2013E0D600055381 /* Build configuration list for PBXNativeTarget "DerivativeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADF735F2013E0D600055381 /* Debug */,
+				CADF73602013E0D600055381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADF73612013E0D600055381 /* Build configuration list for PBXNativeTarget "DerivativeGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADF73622013E0D600055381 /* Debug */,
+				CADF73632013E0D600055381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADF73642013E0D600055381 /* Build configuration list for PBXNativeTarget "DerivativeGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADF73652013E0D600055381 /* Debug */,
+				CADF73662013E0D600055381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CADF732E2013E0D600055381 /* Project object */;
+}
